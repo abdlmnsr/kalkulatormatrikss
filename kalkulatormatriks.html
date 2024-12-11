@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Matriks Ordo 2x2</title>
+    <link rel="stylesheet" href="kalkulatormatriks.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kalkulator Matriks Ordo 2x2
+             Abdul Muhamad Nasir</h1>
+        <div class="matrix-input">
+            <h2>Matriks A</h2>
+            <input type="number" id="a00" value="0">
+            <input type="number" id="a01" value="0"><br>
+            <input type="number" id="a10" value="0">
+            <input type="number" id="a11" value="0">
+        </div>
+        <div class="matrix-input">
+            <h2>Matriks B</h2>
+            <input type="number" id="b00" value="0">
+            <input type="number" id="b01" value="0"><br>
+            <input type="number" id="b10" value="0">
+            <input type="number" id="b11" value="0">
+        </div>
+        <div class="buttons">
+            <button onclick="addMatrices()">Tambah</button>
+            <button onclick="subtractMatrices()">Kurangi</button>
+            <button onclick="multiplyMatrices()">Kalikan</button>
+        </div>
+        <div class="result">
+            <h2>Hasil</h2>
+            <div id="result"></div>
+        </div>
+    </div>
+    <script src="kalkulatormatriks.js"></script>
+</body>
+</html>
